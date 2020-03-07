@@ -1420,6 +1420,11 @@ static const struct usb_device_id products[] = {
 	{QMI_QUIRK_SET_DTR(0x22de, 0x9051, 2)}, /* Hucom Wireless HM-211S/K */
 	{QMI_FIXED_INTF(0x22de, 0x9061, 3)},	/* WeTelecom WPD-600N */
 	{QMI_QUIRK_SET_DTR(0x1e0e, 0x9001, 5)},	/* SIMCom 7100E, 7230E, 7600E ++ */
+	{QMI_QUIRK_SET_DTR(0x1e0e, 0x9002, 5)},	/* SIMCom 7500E, 7600E ++ */
+	{QMI_QUIRK_SET_DTR(0x1e0e, 0x9004, 6)},	/* SIMCom 7500E, 7600E ++ */
+	{QMI_QUIRK_SET_DTR(0x1e0e, 0x9007, 5)},	/* SIMCom 7500E, 7600E ++ */
+	{QMI_QUIRK_SET_DTR(0x1e0e, 0x901A, 3)},	/* SIMCom 7500E, 7600E ++ */
+	{QMI_QUIRK_SET_DTR(0x1e0e, 0x901B, 2)},	/* SIMCom 7500E, 7600E ++ */
 	{QMI_QUIRK_SET_DTR(0x2c7c, 0x0121, 4)},	/* Quectel EC21 Mini PCIe */
 	{QMI_QUIRK_SET_DTR(0x2c7c, 0x0191, 4)},	/* Quectel EG91 */
 	{QMI_QUIRK_SET_DTR(0x2c7c, 0x0195, 4)},	/* Quectel EG95 */
