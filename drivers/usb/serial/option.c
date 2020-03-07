@@ -622,7 +622,7 @@ static void option_instat_callback(struct urb *urb);
 #define NCTRL(ifnum)	((BIT(ifnum) & 0xff) << 8)
 
 /* Interface is reserved */
-#define RSVD(ifnum)	((BIT(ifnum) & 0xff) << 0)
+#define RSVD(ifnum)	((BIT(ifnum) & 0x01ff) << 0)
 
 /* Interface must have two endpoints */
 #define NUMEP2		BIT(16)
